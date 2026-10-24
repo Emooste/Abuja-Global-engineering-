@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102b46">
+  <meta name="description" content="Find engineers, phone repairs, spare parts, prices and engineering lessons in Abuja.">
+  <title>Abuja Global Engineering</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" data-page="Home" aria-label="Abuja Global Engineering home">
+      <span class="brand-mark">⚙</span>
+      <span><b>ABUJA GLOBAL</b><small>ENGINEERING</small></span>
+    </a>
+    <button class="outline-btn" data-page="Account">Sign in / Join</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">YOUR ENGINEERING MARKETPLACE</span>
+      <h1>Fix it. Find it.<br><em>Learn it.</em></h1>
+      <p>Find technicians, buy phones and spare parts, compare prices, and learn practical engineering skills.</p>
+      <label class="search-box"><span>⌕</span><input id="globalSearch" type="search" placeholder="Search phone, AC, TV, engineer, spare parts…"></label>
+      <div class="hero-note">📍 Starting in Abuja, expanding across Nigeria</div>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <div class="gear">⚙</div><div class="float-card float-one">🔧 Repair services</div><div class="float-card float-two">📱 Phones & parts</div>
+    </div>
+  </section>
+
+  <div id="notice" class="notice" role="status" hidden></div>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <p class="side-label">MENU</p>
+      <nav id="sideNav"></nav>
+      <div class="side-help"><strong>🛡 Safety first</strong><p>Use qualified professionals for electrical, vehicle, gas and high-voltage repairs.</p></div>
+    </aside>
+
+    <main id="content" class="content" tabindex="-1"></main>
+  </div>
+
+  <nav id="mobileNav" class="mobile-nav" aria-label="Main navigation"></nav>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><span class="brand-mark">⚙</span><span><b>ABUJA GLOBAL</b><small>ENGINEERING</small></span></div>
+    <p>Every repair. Every part. Every engineer.</p>
+    <small>Demo website — confirm prices and seller details before buying.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
